@@ -95,46 +95,7 @@ input[type=submit] {
   margin-top: 10px;
   font-size: 20px;
 }
-  
-.bar ul {
-    overflow: hidden;
-    background-color:black;
-    margin:0;
-    position:fixed;
-    width:96vw
-  }
-  
-.bar > ul > li  {
-    float:right;
-    padding: 10px 8px 10px;
-  }
-
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: rgb(64, 61, 71);
-  }
-   
-a[href^="#signup"] {
-    background-color: rgb(75, 190, 75);
-  }
-
-li a:hover {
-    background-color: rgb(38, 37, 39);;
-  }
-  
-li a[href^="#signup"]:hover { 
-  
-  background-color: rgb(41, 116, 41);  
-
-}
-.icon ul {
+.icon ul{
   margin-top:50px;
   list-style-type: none;
 }
@@ -142,11 +103,6 @@ li a[href^="#signup"]:hover {
 .fa {
   
   float: right;
-  font-size: 40px;
+  font-size: 18px;
   padding: 0px 118px 0px 17px;
 }
-
-
-
-
- 

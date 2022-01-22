@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-        <title>Bisre: Forms</title>
-        <link rel="stylesheet" href="/static/styles.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/ed347a10bd.js" crossorigin="anonymous"></script>
+{% extends "layout.html" %}
 
-    </head>
-    <body>
-      
-    
+{% block title %} <title>Bisre: Forms</title> {% endblock %}
+
+{% block style %}  <link rel="stylesheet" href="/static/styles.css"> {% endblock %}
+
+{% block body %} 
     <div class="container">
-        <nav class="bar">
-            <ul>
-                    <li><a href="/login">Log In</a></li>
-                    <li><a href="/signup">Sign Up</a></li>
-                    <li><a href="#">view in Editor</a></li>
-                    <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+        
         <img src="/static/img/survey-form-background.jpeg" alt="it teams " width="1000" height="300">   
         
             <div id="title">
@@ -120,6 +106,5 @@
                     </li>
                 </ul>
             </footer>
-    </body>
-  
-</html>
+
+{% endblock%}

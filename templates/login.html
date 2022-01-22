@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-        <title>Login</title>
-        <link rel="stylesheet" href="/static/login.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/ed347a10bd.js" crossorigin="anonymous"></script>
+{% extends "layout.html" %}
 
-    </head>
-    <body>
+{% block title %} <title>Login</title> {% endblock %}
+
+{% block style %}  <link rel="stylesheet" href="/static/login.css"> {% endblock %}
+
+{% block body %} 
+
         <div class="container">
+
             <div class="logo">logo</div>
             <div class="full-form">
                 <div class="login">
@@ -43,7 +40,7 @@
 
                     </div> 
             <div class="icon">
-                <ul>
+                <ul id="ul">
                     <li>
                         <i class="fa fa-facebook-square" aria-hidden="true">  Log In with Facebook</i><br>
                         <i class="fa fa-github" aria-hidden="true"> Log In with Github</i><br>
@@ -52,9 +49,8 @@
                 </ul>
             </div>
             <div class="account">
-               <p> Need an account? <a style="color: aquamarine; text-decoration: none;" href="index.html"> Sign up now!</a> </p> 
+               <p> Need an account? <a style="color: aquamarine; text-decoration: none;" href="/signup"> Sign up now!</a> </p> 
             </div>
 
 
-        </div>
-    </body
+{% endblock%}

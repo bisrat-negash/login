@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Sign-up</title>
-    <link rel="stylesheet" href="/static/signup.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ed347a10bd.js" crossorigin="anonymous"></script>
-    
-    
-    
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block title %} <title>Sign-up</title>{% endblock %}
+
+{% block style %} <link rel="stylesheet" href="/static/signup.css"> {% endblock %}
+
+{% block body %} 
     <div class="signupform">
+       
         <form>
             Your Name<br>
             <input type="text"  name="name"><br>
@@ -31,5 +26,4 @@
         </form>  
     </div>
     
-</body>
-</html>
+{% endblock %}

@@ -63,11 +63,6 @@ input[type=submit]:hover{
     height: 100px;
     margin-left: 25px;
 }
-  /*position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-} */
 
 .vrtbottom {
     position: relative;
@@ -163,3 +158,4 @@ i{
     border-radius: 5px;
     float: left;
 }
+

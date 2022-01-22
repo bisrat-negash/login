@@ -1,0 +1,40 @@
+.bar ul {
+    overflow: hidden;
+    background-color: #5d0878;
+    margin: -120px 0px 0px -7px;
+    position: fixed;
+    width: 98%;
+    position: inherit;
+}
+
+.bar > ul > li  {
+    float:right;
+    padding: 10px 8px 10px;
+  }
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(64, 61, 71);
+  }
+   
+a[href^="/signup"] {
+    background-color: rgb(75, 190, 75);
+  }
+
+li a:hover {
+    background-color: rgb(38, 37, 39);;
+  }
+  
+li a[href^="/signup"]:hover { 
+  
+  background-color: rgb(41, 116, 41);  
+
+}
+
