@@ -1,0 +1,152 @@
+body {
+  background-color:rgb(79, 74, 212);
+  margin:0;
+}
+
+img {
+  position: fixed;
+  z-index: -1;
+  top: -13%;
+  width: 109%;
+  max-width: 350%;
+  height: 130%;
+  opacity: 0.5;  
+  background-attachment: fixed;
+}
+
+#title {
+ 
+ position: relative; 
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ position: absolute;
+ top: 10%;
+ width: 100%;
+ max-width: 350%;
+ text-align: center;
+ font-size: 35px;
+ padding-bottom: 5px;
+ color: white;
+}
+
+#thank {
+      position: relative;  
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      position: absolute;
+      top: 14%;
+      width: 100%;
+      max-width: 350%;
+      text-align: center;
+      font-size: 18px;
+      padding-top: 15px;
+      color: white;
+}
+
+.form {
+    
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    max-width: 350%;
+    margin:  10px 300px 10px;
+    font-size: 20px;
+    background-color: rgb(5, 17, 54);
+    opacity: 0.8;
+    padding: 20px 40px;
+    color: white;
+    z-index:-1;
+    height:130%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 17px;  ;
+  }
+
+input[type="radio"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+} 
+input[type=checkbox] {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.comment {
+  width: 100%;
+  height: 100px;
+  background-color: #d0e2bc;
+  margin-top:10px;
+}
+
+input[type=submit] {
+
+  background-color: rgb(2 227 133);
+  width:100%;
+  padding: 5px 0 5px 0px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+  
+.bar ul {
+    overflow: hidden;
+    background-color:black;
+    margin:0;
+    position:fixed;
+    width:96vw
+  }
+  
+.bar > ul > li  {
+    float:right;
+    padding: 10px 8px 10px;
+  }
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(64, 61, 71);
+  }
+   
+a[href^="#signup"] {
+    background-color: rgb(75, 190, 75);
+  }
+
+li a:hover {
+    background-color: rgb(38, 37, 39);;
+  }
+  
+li a[href^="#signup"]:hover { 
+  
+  background-color: rgb(41, 116, 41);  
+
+}
+.icon ul {
+  margin-top:50px;
+  list-style-type: none;
+}
+
+.fa {
+  
+  float: right;
+  font-size: 40px;
+  padding: 0px 118px 0px 17px;
+}
+
+
+
+
+ 

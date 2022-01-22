@@ -1,0 +1,165 @@
+body{
+    background: url(img/anony.jpg);
+}
+.logo{
+    background:url(img/codepen-logo.svg) no-repeat; 
+    color: white;
+    margin: -3vmax 0 0 25vmax;
+    position: absolute;
+    font-size: 98px;
+    font: 0/0 a;
+}
+
+.full-form {
+    margin: 120px 0 0 250px;
+}
+.login {
+    font-family: var(--cp-font-family-header-alt);
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: white;
+}
+
+input[type=email] {
+  color: white;
+  width: 106px;
+  max-width: 8%;
+  padding: 25px 0 0 225px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input[type=password] {
+    color: white;
+    width: 106px;
+    max-width: 8%;
+    padding: 25px 0 0 225px;
+    border-radius: 5px;
+}
+input[type=submit] {
+    background-color: rgb(2 227 133);
+    width: 335px;
+    padding: 8px 0px 8px 0px;
+    margin: 0 0 35px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #248c46;
+}
+.forgot {
+   
+    padding-left: 100px;
+    color: #76daff;
+}
+.forgot:hover{
+    color:white ;
+}
+
+.vrttop {
+    position: relative;
+    border-left: 2px solid white;
+    height: 100px;
+    margin-left: 25px;
+}
+  /*position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+} */
+
+.vrtbottom {
+    position: relative;
+    border-left: 2px solid white;
+    height: 100px;
+    margin-left: 25px;
+
+}
+
+
+.flexcontainer {
+    position: relative;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 12px;
+}
+.or {
+    margin: -256px 0px 0px 607px;
+    position: relative;
+    color: white;
+}
+
+.value
+{
+ font-size: 18px;
+ margin: 0 0 0 0px;
+ color: hsl(233deg 10% 64%);
+}
+
+
+.icon ul{
+     list-style-type:none;
+     padding: 0px 0px 6px 0px;
+     margin: -247px 0px 40px 700px;
+     position: absolute;
+}
+
+.fa {
+  
+    padding: 53px 41px 0px 25px;
+    text-align: center;
+    font-size: 18px;
+  
+  }
+  .fa.fa-facebook-square{
+    padding: 12px 60px 12px 10px;
+    background-color:#4464a2;
+    color: white;
+    border-radius: 4px;
+  }
+  .fa.fa-facebook-square:hover{
+      background-color: rgb(64, 72, 94);
+       
+  }
+.fa.fa-github
+  {
+    padding: 12px 80px 12px 10px;
+    background-color:#868ca0;
+    color: white;
+    border-radius: 4px; 
+  }
+  
+.fa.fa-linkedin-square{
+    padding: 12px 60px 12px 10px;
+    background-color: #0e76a8 ;
+    color: white;
+    border-radius: 4px; 
+}
+.fa.fa-github:hover{
+    background-color: rgb(64, 72, 94);
+}
+
+.fa.fa-linkedin-square:hover{
+    background-color: rgb(64, 72, 94);
+}
+i{
+    margin: 0 0 39px 3px;
+}
+.account{
+    padding: 22px 0px 0px 439px;
+    text-align: center;
+
+   
+}
+
+.account p{
+    background-color: rgb(64, 72, 94);
+    width: 389px;
+    padding: 15px 0 10px 0px;
+    border-radius: 5px;
+    float: left;
+}

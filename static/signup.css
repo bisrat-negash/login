@@ -1,0 +1,35 @@
+body{
+    background-image:url(img/Black\ Wallpaper\ 10.jpg);
+
+}
+.signupform {
+    position: absolute;
+    margin: 16vw 43vw 0px;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 20px 40px;
+    color:white;     
+}
+input[type=text]{
+    padding-bottom: 10px;
+    margin: 10 0 10 0;
+}
+
+input[type=password]{
+    padding-bottom: 10px;
+    margin: 10 0 10 0;
+}
+
+input[type=submit]{
+    margin: 10 0 10 0;
+    background-color: rgb(2 227 133);
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+input[type=email]{
+    padding-bottom: 10px;
+    margin: 10 0 10 0;
+}
