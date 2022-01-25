@@ -1,11 +1,13 @@
 body{
-    background: url(img/anony.jpg);
+    background: url(/static/img/anony.jpg);
+    margin: 0;
+    background-position:left;
+    margin: 0 0 0 0px;    
 }
 .logo{
     background:url(img/codepen-logo.svg) no-repeat; 
     color: white;
     margin: -3vmax 0 0 25vmax;
-    position: absolute;
     font-size: 98px;
     font: 0/0 a;
 }
@@ -38,7 +40,7 @@ input[type=password] {
 }
 input[type=submit] {
     background-color: rgb(2 227 133);
-    width: 335px;
+    width: 297px;
     padding: 8px 0px 8px 0px;
     margin: 0 0 35px 0px;
     font-size: 20px;
@@ -158,4 +160,3 @@ i{
     border-radius: 5px;
     float: left;
 }
-

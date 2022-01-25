@@ -6,51 +6,53 @@
 
 {% block body %} 
 
-        <div class="container">
+    <div class="container">
+            
+        <div class="logo">logo</div>
+        <div class="full-form">
+            <div class="login">
+                log in!
+            </div> 
+            <form>
+            
+                <div class="value">
+                <label for="username or email">Username or Email</label><br>
+                <input type="email"  name="username or email" id="" aria-describedby="emailHelpId"><br>
+                
+                <label for="Password">Password</label><br>
+                <input type="password"  name="password" ><br><br>
+                </div>
+            
+                <div class= "submit">
+                <input type="submit"  name="submit" value="Log In"> <br>
+                </div>
+            
+                <div class="forgot">
+                <label for="Forgot Password">Forgot Password?</label><br>
+            
+                </div>    
+            </form> 
+        </div>
+                <div class="or">
+                    <div class="vrttop"></div>
+                    <div class="flexcontainer">OR</div>
+                    <div class="vrtbottom"></div>
 
-            <div class="logo">logo</div>
-            <div class="full-form">
-                <div class="login">
-                    log in!
                 </div> 
-                <form>
-                   
-                    <div class="value">
-                    <label for="username or email">Username or Email</label><br>
-                    <input type="email"  name="username or email" id="" aria-describedby="emailHelpId"><br>
-                    
-                    <label for="Password">Password</label><br>
-                    <input type="password"  name="password" ><br><br>
-                    </div>
-                   
-                    <div class= "submit">
-                    <input type="submit"  name="submit" value="Log In"> <br>
-                    </div>
-                   
-                    <div class="forgot">
-                    <label for="Forgot Password">Forgot Password?</label><br>
-                   
-                    </div>    
-                </form> 
-            </div>
-                    <div class="or">
-                        <div class="vrttop"></div>
-                        <div class="flexcontainer">OR</div>
-                        <div class="vrtbottom"></div>
+        <div class="icon">
+            <ul>
+                <li>
+                    <i class="fa fa-facebook-square" aria-hidden="true">  Log In with Facebook</i><br>
+                    <i class="fa fa-github" aria-hidden="true"> Log In with Github</i><br>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"> Log In with Linkedin</i><br>
+                </li>
+            </ul>
+        </div>
+        <div class="account">
+        <p> Need an account? <a style="color: aquamarine; " href="signup.html"> Sign up now!</a> </p> 
+        </div>
 
-                    </div> 
-            <div class="icon">
-                <ul id="ul">
-                    <li>
-                        <i class="fa fa-facebook-square" aria-hidden="true">  Log In with Facebook</i><br>
-                        <i class="fa fa-github" aria-hidden="true"> Log In with Github</i><br>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"> Log In with Linkedin</i><br>
-                    </li>
-                </ul>
-            </div>
-            <div class="account">
-               <p> Need an account? <a style="color: aquamarine; text-decoration: none;" href="/signup"> Sign up now!</a> </p> 
-            </div>
 
+    </div>
 
 {% endblock%}

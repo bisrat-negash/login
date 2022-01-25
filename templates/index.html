@@ -1,22 +1,22 @@
 {% extends "layout.html" %}
 
-{% block title %} <title>Bisre: Forms</title> {% endblock %}
+{% block title %} <title>Bisre:Forms</title> {% endblock %}
 
-{% block style %}  <link rel="stylesheet" href="/static/styles.css"> {% endblock %}
+{% block style %}  <link rel="stylesheet" href="static/styles.css"/> {% endblock %}
 
 {% block body %} 
+
     <div class="container">
-        
         <img src="/static/img/survey-form-background.jpeg" alt="it teams " width="1000" height="300">   
         
-            <div id="title">
+            <div id="title"> 
                 freeCodecamp Survey Form
             </div>
             <div id="thank">
                 <em>Thank you for taking the time to help us improve the platform</em> 
             </div>
             <div class="form">
-                <form>
+            <form>
                 Name<br>
                 <input type="text" placeholder="Enter your name" name="name"><br>
                 
@@ -27,7 +27,7 @@
                 <input type="text"placeholder="Age" name="email"><br>
                 
                 Which option best describes your current role?<br>
-                  <!--drop down list form remain --> 
+                <!--drop down list form remain --> 
                 <select id="role" name="select current role">
                     <option value="select current role">select current role</option>
                     <option value="student">student</option>
@@ -91,20 +91,21 @@
                     Any comments or suggestions?<br>
 
                     <textarea class="comment">Type your comment here.</textarea>
-                     <br>
+                    <br>
                     <input type="submit" name="submit" value="Submit">
 
-                </form>
+            </form>
             <footer class="icon">
             
                 <ul>
                     <li>
-                      <a href="www.google.com"> <i class="fa fa-facebook" value="login with facebook" aria-hidden="true"></i></a>
+                        <i class="fa fa-facebook" value="login with facebook" aria-hidden="true"></i>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <i class="fa fa-github" aria-hidden="true"></i>
                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                     </li>
                 </ul>
             </footer>
+    </div>        
 
 {% endblock%}
